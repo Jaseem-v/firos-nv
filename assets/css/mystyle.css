@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1200px) {
+    .expertise__single {
+        width: 48%;
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .expertise__single {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
