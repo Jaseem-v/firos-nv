@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="58" viewBox="0 0 120 58">
+  <defs>
+    <clipPath id="clip-brand-06">
+      <rect width="120" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="brand-06" clip-path="url(#clip-brand-06)">
+    <g id="Group_17157" data-name="Group 17157" transform="translate(0 2)">
+      <text id="Facebook" transform="translate(43 31)" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Facebook</tspan></text>
+      <g id="facebook_1_" data-name="facebook (1)" transform="translate(0 11.998)">
+        <path id="Path_10449" data-name="Path 10449" d="M25.379,0H3.626A3.629,3.629,0,0,0,0,3.626V25.38a3.629,3.629,0,0,0,3.626,3.626H25.379a3.63,3.63,0,0,0,3.626-3.626V3.626A3.629,3.629,0,0,0,25.379,0Z" transform="translate(0 0.001)" fill="#3b5999"/>
+        <path id="Path_10450" data-name="Path 10450" d="M18.064,13.564V9.938c0-1,.812-.906,1.813-.906H21.69V4.5H18.064a5.437,5.437,0,0,0-5.438,5.438v3.626H9V18.1h3.626v9.971h5.438V18.1h2.719L22.6,13.564Z" transform="translate(1.877 0.94)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

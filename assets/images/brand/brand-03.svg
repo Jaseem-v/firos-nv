@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="58" viewBox="0 0 120 58">
+  <defs>
+    <clipPath id="clip-brand-03">
+      <rect width="120" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="brand-03" clip-path="url(#clip-brand-03)">
+    <g id="Group_17159" data-name="Group 17159" transform="translate(0 3)">
+      <text id="Linked_In" data-name="Linked In" transform="translate(56 32)" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Linked In</tspan></text>
+      <g id="linked-in-logo-of-two-letters" transform="translate(0 12)">
+        <g id="Group_17154" data-name="Group 17154">
+          <path id="Path_10446" data-name="Path 10446" d="M.966,197.682H4.832a.966.966,0,0,0,.966-.966v-16.9a.966.966,0,0,0-.966-.966H.966a.966.966,0,0,0-.966.966v16.9A.966.966,0,0,0,.966,197.682Z" transform="translate(0 -170.514)" fill="#4372a1"/>
+          <path id="Path_10447" data-name="Path 10447" d="M.966,29.281H4.832a.966.966,0,0,0,.966-.966V24.882a.966.966,0,0,0-.966-.966H.966A.966.966,0,0,0,0,24.882v3.434A.966.966,0,0,0,.966,29.281Z" transform="translate(0 -23.916)" fill="#4372a1"/>
+          <path id="Path_10448" data-name="Path 10448" d="M200.063,172.1a5.88,5.88,0,0,0-2.4-1.764,8.7,8.7,0,0,0-3.508-.691,8.591,8.591,0,0,0-6.6,2.974c-.359.395-.62.308-.62-.225v-1.288a.966.966,0,0,0-.966-.966H182.51a.966.966,0,0,0-.966.966v16.9a.966.966,0,0,0,.966.966h3.867a.966.966,0,0,0,.966-.966v-5.878a18.906,18.906,0,0,1,.444-5.035,4.158,4.158,0,0,1,1.64-2.187,4.65,4.65,0,0,1,2.7-.826,3.45,3.45,0,0,1,2.012.578,3.22,3.22,0,0,1,1.207,1.62,17.283,17.283,0,0,1,.371,4.591v7.136a.966.966,0,0,0,.966.966h3.867a.966.966,0,0,0,.966-.966v-9.571a18.129,18.129,0,0,0-.32-3.9A6.388,6.388,0,0,0,200.063,172.1Z" transform="translate(-171.776 -161.804)" fill="#4372a1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
