@@ -217,11 +217,11 @@
         },
 
         axilHover : function () {
-            $('.axil-service-area .axil-service , .mesonry-list .portfolio , .blog-list-wrapper .axil-blog').mouseenter(function() {
+            $('.axil-service-area .axil-service , .mesonry-list .portfolio , .blog-list-wrapper .axil-blog, .axil-testimonial-single .axil-testimonial').mouseenter(function() {
                 var self=this;
                 $(self).removeClass('axil-control');
                 setTimeout(function() {
-                    $('.axil-service-area .active , .mesonry-list .active , .blog-list-wrapper .active').removeClass('active').addClass('axil-control');
+                    $('.axil-service-area .active , .mesonry-list .active , .blog-list-wrapper .active,  .axil-testimonial-single .active').removeClass('active').addClass('axil-control');
                     $(self).removeClass('axil-control').addClass('active');
                     $('.axil-service.active .inner::before').css('opacity',0.1);
                 }, 0);

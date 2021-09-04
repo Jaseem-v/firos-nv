@@ -180,8 +180,6 @@ p {
   color: #5b5675 !important;
 }
 
-
-
 code,
 kbd,
 pre,
@@ -15304,19 +15302,19 @@ Masonary Grid List
   box-sizing: border-box;
 }
 
-.axil-testimonial:hover .inner::before {
+.axil-testimonial.active .inner::before {
   opacity: 1;
 }
 
-.axil-testimonial:hover .inner::after {
+.axil-testimonial.active .inner::after {
   opacity: 1;
 }
 
-.axil-testimonial:hover .description a.axil-link-button {
+.axil-testimonial.active .description a.axil-link-button {
   color: #702fff;
 }
 
-.axil-testimonial:hover .description a.axil-link-button::after {
+.axil-testimonial.active .description a.axil-link-button::after {
   width: 100%;
 }
 
