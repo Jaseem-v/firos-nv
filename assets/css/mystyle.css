@@ -50,12 +50,6 @@ button.axil-button.btn-transparent::after {
     color: #201b3d;
 }
 
-ul.mainmenu li a,
-a.axil-button,
-button.axil-button {
-    font-weight: 500;
-}
-
 .banner-name {
     color: #5138ee !important;
     margin-bottom: 10px !important;
@@ -80,23 +74,10 @@ h6 a {
     color: #0a071b;
 }
 
-/* h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: inherit;
-} */
-
 .axil-case-study .content {
     color: #5b5675;
 }
 
-/* .case-study-subtitle{
-    color: #fff !important;
-
-} */
 h2.title {
     color: #061237;
     text-align: center;
@@ -128,6 +109,24 @@ p.creative-title {
     border: 4px solid #9047ff;
 }
 
-.axil-link-button, .design-link{
+.axil-link-button,
+.design-link {
     color: #5138ee !important;
+}
+
+/* ---header---------- */
+.haeder-default.header-transparent {
+    padding: 10px 0 10px;
+}
+
+ul.mainmenu li a,
+a.axil-button,
+button.axil-button {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+    .haeder-default.header-transparent {
+        padding: 10px 0 10px;
+    }
 }
