@@ -15302,19 +15302,19 @@ Masonary Grid List
   box-sizing: border-box;
 }
 
-.axil-testimonial.active .inner::before {
+.axil-testimonial .inner::before {
   opacity: 1;
 }
 
-.axil-testimonial.active .inner::after {
+.axil-testimonial .inner::after {
   opacity: 1;
 }
 
-.axil-testimonial.active .description a.axil-link-button {
+.axil-testimonial .description a.axil-link-button {
   color: #702fff;
 }
 
-.axil-testimonial.active .description a.axil-link-button::after {
+.axil-testimonial .description a.axil-link-button::after {
   width: 100%;
 }
 
