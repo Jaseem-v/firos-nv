@@ -62,7 +62,7 @@ button.axil-button.btn-transparent::after {
     font-weight: 500;
 }
 .home-service-section {
-    background: #fafafb;
+    background-color: #f8f7fc;
 }
 
 .axil-case-study {
@@ -138,6 +138,11 @@ button.axil-button {
 }
 /* ------------ */
 
-a.axil-button.btn-transparent span.button-text, button.axil-button.btn-transparent span.button-text {
+a.axil-button.btn-transparent span.button-text,
+button.axil-button.btn-transparent span.button-text {
     padding-right: 0px;
+}
+
+.my-bg {
+    background-color: #f8f7fc !important;
 }
