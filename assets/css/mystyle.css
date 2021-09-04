@@ -137,3 +137,7 @@ button.axil-button {
     }
 }
 /* ------------ */
+
+a.axil-button.btn-transparent span.button-text, button.axil-button.btn-transparent span.button-text {
+    padding-right: 0px;
+}
