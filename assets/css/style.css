@@ -177,7 +177,10 @@ dfn {
 p {
   margin: 0 0 10px;
   font-family: "InterRegular", Helvetica, sans-serif !important;
+  color: #5b5675 !important;
 }
+
+
 
 code,
 kbd,
@@ -11502,6 +11505,8 @@ Header Styles
   -o-transition: all 0.4s;
   transition: all 0.4s;
   padding: 15px 0;
+  background: #fff;
+  box-shadow: 34px 34px 74px 0 rgba(56, 50, 124, 0.08);
 }
 
 .haeder-default.header-transparent {
@@ -11534,8 +11539,11 @@ Header Styles
   left: 0;
   right: 0;
   z-index: 9;
-  -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1); */
+
+  box-shadow: 34px 34px 74px 0 rgba(56, 50, 124, 0.08);
+
   -webkit-animation: headerSlideDown 0.95s ease forwards;
   animation: headerSlideDown 0.95s ease forwards;
 }
