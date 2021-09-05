@@ -186,6 +186,7 @@ button.axil-button {
 }
 ul.mainmenu li a {
     text-transform: capitalize;
+    font-size: 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .pt_md--60 {
