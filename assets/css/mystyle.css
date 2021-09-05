@@ -136,6 +136,10 @@ p.subtitle-2 {
     .brand-list li a {
         border-right: none;
         height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
