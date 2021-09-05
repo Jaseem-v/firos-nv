@@ -117,7 +117,7 @@ p.subtitle-2 {
 .brand-list li:nth-child(3) a {
     border-color: #c7c7d6;
 }
-.brand-list li:nth-child(4) a {
+.brand-list li:nth-child(4n) a {
     border-color: transparent;
 }
 .brand-list li a {
@@ -265,4 +265,13 @@ button.axil-button.btn-large:active {
 
 .footer-default .footer-widget-item ul.ft-menu li a {
     font-size: 15px;
+}
+
+.brand-list li a:hover {
+    background: #f6f6f6;
+    border-color: #c7c7d6;
+}
+
+.brand-list li:nth-child(4n) a:hover {
+    border-color: transparent;
 }
