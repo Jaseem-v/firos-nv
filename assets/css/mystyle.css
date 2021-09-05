@@ -242,6 +242,7 @@ button.axil-button.btn-large {
     background-color: #8137ee;
     color: #fff;
     transition: all 0.2s;
+    padding: 0 32px;
 }
 
 a.axil-button.btn-large:hover,
