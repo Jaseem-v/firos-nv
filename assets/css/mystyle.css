@@ -50,6 +50,7 @@ a.axil-button.btn-transparent::after,
 button.axil-button.btn-transparent::after {
     border-radius: 500px;
     background: #774ef0;
+    display: none;
 }
 
 .axil-slide.slide-style-default .content h1 {
@@ -238,14 +239,15 @@ p {
 
 a.axil-button.btn-large,
 button.axil-button.btn-large {
-    background: #774ef0;
+    background-color: #8137ee;
     color: #fff;
     transition: all 0.2s;
 }
 
 a.axil-button.btn-large:hover,
 button.axil-button.btn-large:hover {
-    transform: translateY(-3px);
+    /* transform: translateY(-3px); */
+    background-color: #692ae4;
 }
 a.axil-button.btn-large:active,
 button.axil-button.btn-large:active {
