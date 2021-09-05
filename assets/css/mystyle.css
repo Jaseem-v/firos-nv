@@ -135,6 +135,7 @@ p.subtitle-2 {
     }
     .brand-list li a {
         border-right: none;
+        height: 100px;
     }
 }
 
