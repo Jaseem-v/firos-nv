@@ -165,9 +165,9 @@ button.axil-button {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
     .haeder-default.header-transparent {
-        padding: 10px 0 10px;
+        padding: 15px 0 ;
     }
 }
 
