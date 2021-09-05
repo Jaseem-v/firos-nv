@@ -134,9 +134,8 @@ p.subtitle-2 {
         flex-basis: 50%;
     }
     .brand-list li a {
-        border-right:none;
+        border-right: none;
     }
-    
 }
 
 /*xx creative xx */
@@ -170,6 +169,18 @@ button.axil-button {
 .haeder-default .logo a {
     height: 32px;
 }
+
+@media only screen and (max-width: 991px) {
+    .haeder-default .logo a {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt_md--60 {
+        padding-top: 00px !important;
+    }
+}
 /* ------------ */
 
 a.axil-button.btn-transparent span.button-text,
@@ -186,6 +197,14 @@ button.axil-button.btn-transparent span.button-text {
 .slider-fixed-height {
     height: 90vh;
     width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .slider-fixed-height {
+        height: auto;
+        width: 100%;
+        padding: 49px 0;
+    }
 }
 /* ---- */
 
