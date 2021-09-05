@@ -184,7 +184,9 @@ button.axil-button {
         height: auto;
     } */
 }
-
+ul.mainmenu li a {
+    text-transform: capitalize;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .pt_md--60 {
         padding-top: 00px !important;
