@@ -168,23 +168,18 @@ button.axil-button {
 
 @media only screen and (max-width: 991px) {
     .haeder-default.header-transparent {
-        padding: 15px 0 ;
-    }3
+        padding: 15px 0;
+    }
 }
 
 .haeder-default .logo a {
     height: 32px;
 }
-.haeder-default .logo a img{
+.haeder-default .logo a img {
     width: 100%;
     height: 100%;
 }
 
-@media only screen and (max-width: 991px) {
-    /* .haeder-default .logo a {
-        height: auto;
-    } */
-}
 ul.mainmenu li a {
     text-transform: capitalize;
     font-size: 15px;
@@ -275,3 +270,61 @@ button.axil-button.btn-large:active {
 .brand-list li:nth-child(4n) a:hover {
     border-color: transparent;
 }
+
+.fixed-line-para {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .axil-testimonial .inner::after {
+        height: 400px;
+    }
+}
+
+/* -------about---------- */
+.about-title,
+.about-para {
+    text-align: left !important;
+}
+
+.about-para {
+    font-size: 17px !important;
+    margin-bottom: 20px !important;
+}
+
+.about-para-last-child {
+    margin-bottom: 40px !important;
+}
+
+.about-title {
+    color: #061237 !important;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn-secondary {
+    background-color: rgba(120, 57, 243, 0.08) !important;
+    border: 2px solid rgba(120, 57, 243, 0.08) !important;
+    box-shadow: 2px 2px 2px 0 rgba(114, 129, 167, 0.04) !important;
+    color: #7839f3 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #692ae4 !important;
+    color: #fff !important;
+}
+
+/* -----------xx -- about------ */
+
+/* ------------digital----------- */
+.digital-art-sections {
+    padding: 0px !important;
+}
+/* -----xx-------digital-----xx------ */
