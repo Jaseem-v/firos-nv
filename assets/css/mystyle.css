@@ -81,6 +81,15 @@ h6 a {
     color: #0a071b;
 }
 
+h5 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+}
+
 .axil-case-study .content {
     color: #5b5675;
 }
