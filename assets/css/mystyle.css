@@ -1,17 +1,8 @@
-/* @media only screen and (max-width: 1200px) {
-    .expertise__single {
-        width: 48%;
-        flex: 0 0 48%;
-        max-width: 48%;
-    }
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
-@media only screen and (max-width: 600px) {
-    .expertise__single {
-        width: 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-} */
 
 .banner-description {
     margin-top: 20px;
@@ -99,6 +90,11 @@ h2.title {
     text-align: center;
     font-size: 40px;
     margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+    h2.title {
+        font-size: 30px;
+    }
 }
 .section-title h2.title {
     margin-bottom: 10px;
