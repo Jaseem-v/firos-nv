@@ -372,7 +372,17 @@ button.axil-button.btn-large:active {
 /* ---x---contact----x- */
 
 /* -----------index-video------- */
-.embed-responsive-4by3::before {
-    padding-top: 75.1%;
+.animation-video{
+    width: 100%;
+    height: 35vh;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    background: #EEF2F7 !important;
+    border: 0!important;
+}
+
+.video-shadow{
+    box-shadow: none;
 }
 /* -------index-video--------- */
