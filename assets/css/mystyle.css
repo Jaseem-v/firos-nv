@@ -370,3 +370,9 @@ button.axil-button.btn-large:active {
     }
 }
 /* ---x---contact----x- */
+
+/* -----------index-video------- */
+.embed-responsive-4by3::before {
+    padding-top: 75.1%;
+}
+/* -------index-video--------- */
