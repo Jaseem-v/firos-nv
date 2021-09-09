@@ -109,6 +109,9 @@ p.subtitle-2 {
     padding: 0 0 0 0;
 }
 
+.axil-slide.slide-style-default .content p {
+    margin-bottom: 25px;
+}
 /* --creative-- */
 .creative-icons {
     margin-top: 80px;
