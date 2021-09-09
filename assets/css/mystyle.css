@@ -275,7 +275,7 @@ button.axil-button.btn-large:active {
 }
 .brand-list::before {
     background: #eaeaf1;
-    height: .5px;
+    height: 0.5px;
 }
 
 .brand-list li:nth-child(4n) a:hover {
@@ -346,9 +346,24 @@ button.axil-button.btn-large:active {
 
 /* -----photography-------- */
 
-.photography-card-title{
+.photography-card-title {
     font-size: 19px;
     margin-bottom: 2px !important;
 }
 
 /* --xx---photography---xx----- */
+
+/* ------contact----- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .axil-address {
+        padding: 50px 45px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .axil-address {
+        padding: 30px 26px;
+    }
+}
+/* ---x---contact----x- */
