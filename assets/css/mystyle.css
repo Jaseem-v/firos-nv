@@ -127,7 +127,7 @@ p.subtitle-2 {
 }
 .brand-list li a {
     display: block;
-    border-right: 1px solid #c7c7d6;
+    border-right: 1px solid #c7c7d5;
     text-align: center;
     height: 200px;
     line-height: 200px;
@@ -270,8 +270,8 @@ button.axil-button.btn-large:active {
 }
 
 .brand-list li a:hover {
-    background: #f6f6f6;
-    border-color: #c7c7d6;
+    background: #fff;
+    border-color: #c7c7d5;
 }
 
 .brand-list li:nth-child(4n) a:hover {
