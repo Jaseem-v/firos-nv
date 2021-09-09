@@ -14712,22 +14712,23 @@ Masonary Grid List
 }
 
 .portfolio .inner .port-overlay-info .hover-action span.category {
-  font-size: 20px;
+  /* font-size: 20px; */
   line-height: 32px;
   display: block;
+  color: #757589;
 }
 
 .portfolio.active .inner .thumb {
-  -webkit-transform: perspective(500px) rotateY(-5deg);
-  transform: perspective(500px) rotateY(-5deg);
+  -webkit-transform: perspective(0) rotateY(0);
+  transform: perspective(0) rotateY(0);
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .portfolio.active .inner .thumb {
     -webkit-transform: perspective(0) rotateY(0);
     transform: perspective(0) rotateY(0);
   }
-}
+} */
 
 .portfolio.active .inner .thumb::before {
   opacity: 1;
@@ -15325,8 +15326,6 @@ Masonary Grid List
   padding-left: 0px;
   padding-right: 0px;
 }
-
-
 
 .brand-list {
   display: -webkit-box;

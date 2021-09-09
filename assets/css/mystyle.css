@@ -120,14 +120,14 @@ p.subtitle-2 {
 }
 
 .brand-list li:nth-child(3) a {
-    border-color: #c7c7d6;
+    border-color: #eaeaf1;
 }
 .brand-list li:nth-child(4n) a {
     border-color: transparent;
 }
 .brand-list li a {
     display: block;
-    border-right: 1px solid #c7c7d5;
+    border-right: 1px solid #eaeaf1;
     text-align: center;
     height: 200px;
     line-height: 200px;
@@ -270,8 +270,12 @@ button.axil-button.btn-large:active {
 }
 
 .brand-list li a:hover {
-    background: #fff;
-    border-color: #c7c7d5;
+    background: #fafafb;
+    border-color: #eaeaf1;
+}
+.brand-list::before {
+    background: #eaeaf1;
+    height: .5px;
 }
 
 .brand-list li:nth-child(4n) a:hover {
@@ -339,3 +343,12 @@ button.axil-button.btn-large:active {
     padding: 0px !important;
 }
 /* -----xx-------digital-----xx------ */
+
+/* -----photography-------- */
+
+.photography-card-title{
+    font-size: 19px;
+    margin-bottom: 2px !important;
+}
+
+/* --xx---photography---xx----- */
