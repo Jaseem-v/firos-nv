@@ -245,9 +245,13 @@ button.axil-button.btn-large {
     background-color: #8137ee;
     color: #fff;
     transition: all 0.2s;
-    padding: 12px 32px;
+    /* padding: 12px 32px; */
     height: auto;
     line-height: 24px;
+    padding: 20px 40px;
+    box-shadow: -5px 30px 20px -20px rgb(86 93 113 / 38%);
+    -webkit-transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 a.axil-button.btn-large:hover,
@@ -372,17 +376,23 @@ button.axil-button.btn-large:active {
 /* ---x---contact----x- */
 
 /* -----------index-video------- */
-.animation-video{
+.animation-video {
     width: 100%;
     height: 35vh;
     padding: 0 !important;
     margin: 0 !important;
 
-    background: #EEF2F7 !important;
-    border: 0!important;
+    background: #eef2f7 !important;
+    border: 0 !important;
+    border-radius: 12px !important;
 }
 
-.video-shadow{
+.video-shadow {
     box-shadow: none;
 }
 /* -------index-video--------- */
+/* ---logo------- */
+.logo img{
+    border-radius: 0px !important;
+}
+/* -x--logo-----x-- */

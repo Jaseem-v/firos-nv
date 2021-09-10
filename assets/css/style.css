@@ -308,6 +308,7 @@ img {
   -ms-interpolation-mode: bicubic;
   border: 0;
   vertical-align: middle;
+  border-radius: 12px !important;
 }
 
 svg:not(:root) {
