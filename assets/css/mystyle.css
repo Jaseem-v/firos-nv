@@ -418,7 +418,7 @@ button.axil-button.btn-large:active {
     padding-top: 40px;
 }
 
-.works-item{
+.works-item {
     margin-top: 0;
 }
 
@@ -446,11 +446,6 @@ button.axil-button.btn-large:active {
 }
 #tabs .nav-tabs .nav-item {
     margin-right: 2rem;
-    background-color: rgba(120, 57, 243, 0.08) !important;
-    border: 2px solid rgba(120, 57, 243, 0.08) !important;
-    box-shadow: 2px 2px 2px 0 rgb(114 129 167 / 4%) !important;
-    border-radius: 12px;
-    overflow: hidden;
     padding: 0;
 }
 #tabs .nav-tabs .nav-item .nav-link {
@@ -460,6 +455,11 @@ button.axil-button.btn-large:active {
     border: none;
     color: #7839f3 !important;
     text-decoration: none;
+    background-color: rgba(120, 57, 243, 0.08) !important ;
+    border: 2px solid rgba(120, 57, 243, 0.08) !important ;
+    box-shadow: 2px 2px 2px 0 rgb(114 129 167 / 4%) !important ;
+    border-radius: 12px;
+    overflow: hidden;
 }
 #tabs .nav-tabs .nav-item .nav-link i {
     color: #7839f3 !important;
