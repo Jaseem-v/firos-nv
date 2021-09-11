@@ -13638,6 +13638,7 @@ Service Styles
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  border-radius: 12px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -14480,6 +14481,7 @@ Contact Form Style
   -webkit-transform: rotateY(-10deg);
   transform-style: preserve-3d;
   transform: rotateY(-10deg);
+  border-radius: 12px;
 }
 
 .axil-address::before {
@@ -15122,6 +15124,7 @@ Masonary Grid List
   width: 100%;
   -webkit-box-shadow: 0 0 1px transparent;
   box-shadow: 0 0 1px transparent;
+  border-radius: 12px;
 }
 
 .axil-testimonial .clint-info-wrapper {

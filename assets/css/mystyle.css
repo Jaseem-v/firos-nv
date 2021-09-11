@@ -499,3 +499,9 @@ button.axil-button.btn-large:active {
 }
 
 /* -x--work-----x-- */
+
+/* ----iframe----- */
+iframe{
+    border-radius: 12px;
+}
+/* --xx--iframe---xx-- */
