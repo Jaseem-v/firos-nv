@@ -369,7 +369,7 @@ button.axil-button.btn-large:active {
     padding: 0px !important;
 }
 
-.digital-art-section1{
+.digital-art-section1 {
     padding-top: 40px;
 }
 /* -----xx-------digital-----xx------ */
@@ -432,7 +432,7 @@ button.axil-button.btn-large:active {
 
 /* ---work------- */
 .tab-panel-padding {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .works-item {
@@ -440,7 +440,7 @@ button.axil-button.btn-large:active {
 }
 
 #tabs {
-    padding-top: 50px;
+    /* padding-top: 50px; */
     position: sticky;
     top: 0;
     left: 0;
@@ -458,16 +458,16 @@ button.axil-button.btn-large:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 15px 40px;
     margin: auto;
 }
 #tabs .nav-tabs .nav-item {
-    margin-right: 2rem;
+    margin-right: 25px;
     padding: 0;
 }
 #tabs .nav-tabs .nav-item .nav-link {
     margin-right: 0px;
-    padding: 15px 40px;
+    padding: 12px 35px;
     font-size: 20px;
     border: none;
     color: #7839f3 !important;
@@ -541,11 +541,20 @@ iframe {
 @media only screen and (max-width: 767px) {
 }
 @media only screen and (max-width: 600px) {
-    /* a.axil-button.btn-large,
-    button.axil-button.btn-large {
-        padding: 10px 25px;
-    } */
+    #tabs .nav-tabs {
+        padding: 15px 0px;
+    }
+    #tabs .nav-tabs .nav-item {
+        margin-right: 12px;
+        padding: 0;
+    }
+    #tabs .nav-tabs .nav-item .nav-link {
+        margin-right: 0px;
+        padding: 7px 11px;
+        font-size: 15px;
+    }
 }
+
 @media only screen and (max-width: 450px) {
     a.axil-button.btn-large,
     button.axil-button.btn-large {
