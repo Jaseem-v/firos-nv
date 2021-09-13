@@ -11547,7 +11547,7 @@ Header Styles
   animation: headerSlideDown 0.95s ease forwards;
 }
 
-.haeder-default.sticky .header-wrapper {
+.haeder-default .header-wrapper {
   padding: 5px 0;
 }
 
