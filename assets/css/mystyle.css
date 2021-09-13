@@ -98,7 +98,7 @@ h2.title {
 }
 .section-title h2.title {
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 p.subtitle-2 {
     text-align: center;
