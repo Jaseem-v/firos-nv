@@ -381,6 +381,21 @@ button.axil-button.btn-large:active {
     margin-bottom: 2px !important;
 }
 
+.photography-btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 10px 40px; */
+}
+
+.photography-btn {
+    margin-top: 20px;
+}
+.photography-btn:not(:nth-child(3)),.photography-btn:not(:nth-child(4)) {
+    margin-right: 10px;
+}
+
 /* --xx---photography---xx----- */
 
 /* ------contact----- */
@@ -644,6 +659,11 @@ iframe {
     .video-grid-item:nth-child(5),
     .video-grid-item:nth-child(6) {
         grid-column: 1/2;
+    }
+
+    .about-para {
+        font-size: 15px !important;
+        /* margin-bottom: 20px !important; */
     }
 }
 
