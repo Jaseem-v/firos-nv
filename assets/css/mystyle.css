@@ -464,6 +464,7 @@ button.axil-button.btn-large:active {
     box-shadow: none;
     background: #eef2f7 !important;
     height: 100%;
+    border-radius: 12px;
 }
 
 @media only screen and (max-width: 992px) {
