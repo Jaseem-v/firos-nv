@@ -408,9 +408,6 @@ button.axil-button.btn-large:active {
 .photography-btn {
     margin-top: 20px;
     /* flex: 1 0 40%; */
-}
-.photography-btn:not(:nth-child(2)),
-.photography-btn:not(:nth-child(4)) {
     margin-right: 20px;
 }
 
@@ -653,6 +650,11 @@ iframe {
     .photography-btn {
         margin-top: 20px;
         flex: 1 0 40%;
+    }
+
+    .photography-btn:nth-child(2),
+    .photography-btn:nth-child(4) {
+        margin-right: 0px;
     }
 }
 @media only screen and (max-width: 600px) {
