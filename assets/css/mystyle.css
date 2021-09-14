@@ -531,8 +531,8 @@ button.axil-button.btn-large:active {
 }
 #tabs .nav-tabs .nav-item .nav-link {
     margin-right: 0px;
-    padding: 12px 35px;
-    font-size: 20px;
+    padding: 12px 31px;
+    font-size: 17px;
     border: none;
     color: #7839f3 !important;
     text-decoration: none;
@@ -606,6 +606,9 @@ iframe {
     .animation-video-1 {
         height: auto;
     }
+    #tabs .nav-tabs {
+        padding: 15px 0px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .video-grid {
@@ -647,6 +650,11 @@ iframe {
         padding: 0;
     }
 
+    #tabs .nav-tabs .nav-item .nav-link {
+        padding: 7px 12px;
+        font-size: 15px;
+    }
+
     .photography-btn {
         margin-top: 20px;
         flex: 1 0 40%;
@@ -665,10 +673,16 @@ iframe {
         margin-right: 12px;
         padding: 0;
     }
+    #tabs .nav-tabs .nav-item:last-child {
+        margin-right: 12px;
+        padding: 0;
+        margin-top: 14px;
+    }
     #tabs .nav-tabs .nav-item .nav-link {
         margin-right: 0px;
-        padding: 7px 11px;
-        font-size: 15px;
+        padding: 7px 16px;
+        font-size: 14px;
+        flex: 1 0 45%;
     }
 
     .video-grid {
@@ -709,7 +723,11 @@ iframe {
         font-size: 15px !important;
     }
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 330px) {
+    #tabs .nav-tabs .nav-item .nav-link {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 290px) {
 }
