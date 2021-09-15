@@ -2,16 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    float: left;
+    /* float: left; */
 }
-.header-left .logo,.header-left img {
-    float: left;
-}
+
 
 .banner-description {
     margin-top: 20px;
     font-size: 17px !important;
     padding-right: 2rem;
+}
+
+
+.nav-row{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 600px) {
@@ -199,7 +203,7 @@ button.axil-button {
 
 @media only screen and (max-width: 991px) {
     .haeder-default.header-transparent {
-        padding: 15px 0;
+        padding: 15px;
     }
 }
 
