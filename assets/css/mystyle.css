@@ -1,15 +1,12 @@
 .header-left {
-    padding: 0;
+    padding: 0 !important;
 }
-
-
 
 .banner-description {
     margin-top: 20px;
     font-size: 17px !important;
     padding-right: 2rem;
 }
-
 
 @media only screen and (max-width: 600px) {
     .banner-description {
