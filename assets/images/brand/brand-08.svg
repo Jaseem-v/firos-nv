@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="58" viewBox="0 0 120 58">
+  <defs>
+    <clipPath id="clip-brand-08">
+      <rect width="120" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="brand-08" clip-path="url(#clip-brand-08)">
+    <g id="Group_17255" data-name="Group 17255">
+      <g id="Group_17157" data-name="Group 17157" transform="translate(2 2.543)">
+        <text id="Youtube" transform="translate(43 31)" font-size="13" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Youtube</tspan></text>
+      </g>
+      <g id="YouTube-Icon-Full-Color-Logo.wine" transform="translate(0 16.545)">
+        <path id="Path_22310" data-name="Path 22310" d="M34.62,3.89A4.443,4.443,0,0,0,31.494.744C28.737,0,17.679,0,17.679,0S6.622,0,3.865.744A4.442,4.442,0,0,0,.739,3.89C0,6.665,0,12.456,0,12.456s0,5.79.739,8.566a4.443,4.443,0,0,0,3.126,3.147c2.757.743,13.814.743,13.814.743s11.057,0,13.814-.743a4.443,4.443,0,0,0,3.126-3.146c.739-2.776.739-8.566.739-8.566s0-5.791-.739-8.566" fill="red"/>
+        <path id="Path_22311" data-name="Path 22311" d="M93.333,58.29l9.242-5.257-9.242-5.258Z" transform="translate(-79.27 -40.576)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
