@@ -1,12 +1,8 @@
 .header-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    padding: 0;
 }
 
-.header-right{
-    /* float: right; */
-}
+
 
 .banner-description {
     margin-top: 20px;
@@ -14,11 +10,6 @@
     padding-right: 2rem;
 }
 
-.nav-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 @media only screen and (max-width: 600px) {
     .banner-description {
