@@ -4,6 +4,9 @@
     justify-content: flex-start;
     float: left;
 }
+.header-left .logo,.header-left img {
+    float: left;
+}
 
 .banner-description {
     margin-top: 20px;
