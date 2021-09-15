@@ -1,10 +1,13 @@
 .header-left {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: flex-start; */
-    /* float: left; */
+    justify-content: flex-start;
+    float: left;
 }
 
+.header-right{
+    float: right;
+}
 
 .banner-description {
     margin-top: 20px;
@@ -12,8 +15,7 @@
     padding-right: 2rem;
 }
 
-
-.nav-row{
+.nav-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
