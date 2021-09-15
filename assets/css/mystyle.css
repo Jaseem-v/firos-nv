@@ -531,8 +531,8 @@ button.axil-button.btn-large:active {
 }
 #tabs .nav-tabs .nav-item .nav-link {
     margin-right: 0px;
-    padding: 12px 31px;
-    font-size: 17px;
+    padding: 8px 17px;
+    font-size: 15px;
     border: none;
     color: #7839f3 !important;
     text-decoration: none;
