@@ -616,7 +616,7 @@ iframe {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .video-grid {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(3, min-content);
     }
     .video-grid-item:nth-child(1) {
         grid-column: 1/2;
@@ -737,7 +737,7 @@ iframe {
 @media only screen and (max-height: 600px) {
     .video-grid {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, max-content);
+        grid-template-rows: repeat(3, min-content);
     }
     .video-grid-item:nth-child(1) {
         grid-column: 1/2;
