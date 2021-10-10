@@ -11547,18 +11547,18 @@ ul.mainmenu {
 
 ul.mainmenu > li > a {
   display: block;
-  padding: 24px 20px;
+  padding: 15px 20px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   ul.mainmenu > li > a {
-    padding: 24px 22px;
+    padding: 15px 22px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   ul.mainmenu > li > a {
-    padding: 24px 15px;
+    padding: 15px;
   }
 }
 
