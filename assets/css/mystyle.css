@@ -655,11 +655,13 @@ iframe {
     #tabs .nav-tabs .nav-item {
         margin-right: 20px;
         padding: 0;
+        flex: 1 0 45%;
     }
 
     #tabs .nav-tabs .nav-item .nav-link {
         padding: 7px 12px;
         font-size: 15px;
+        text-align: center;
     }
 
     .photography-btn {
@@ -675,6 +677,13 @@ iframe {
     .ui-brand-padding {
         padding-top: 2em;
     }
+
+    #tabs .nav-tabs .nav-item:nth-child(3),
+    #tabs .nav-tabs .nav-item:nth-child(4) {
+        /* margin-right: 12px; */
+        padding: 0;
+        margin-top: 14px;
+    }
 }
 @media only screen and (max-width: 600px) {
     #tabs .nav-tabs {
@@ -689,7 +698,6 @@ iframe {
         margin-right: 0px;
         padding: 7px 16px;
         font-size: 14px;
-        flex: 1 0 45%;
     }
 
     .video-grid {
@@ -720,11 +728,6 @@ iframe {
         padding: 10px 25px;
     }
 
-    #tabs .nav-tabs .nav-item:last-child {
-        margin-right: 12px;
-        padding: 0;
-        margin-top: 14px;
-    }
 }
 @media only screen and (max-width: 380px) {
     .axil-slide.slide-style-default .content h1 {
