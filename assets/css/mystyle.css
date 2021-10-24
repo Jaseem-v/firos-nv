@@ -601,6 +601,11 @@ iframe {
 }
 /* --xx--iframe---xx-- */
 
+/* ------3d-arts---- */
+.art-info {
+    padding-top: 25px;
+}
+/* ---x---3d-arts--x-- */
 /* ---------Media-query----- */
 
 @media only screen and (max-width: 1199px) {
@@ -727,7 +732,6 @@ iframe {
     button.axil-button.btn-large {
         padding: 10px 25px;
     }
-
 }
 @media only screen and (max-width: 380px) {
     .axil-slide.slide-style-default .content h1 {
