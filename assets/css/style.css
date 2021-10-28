@@ -6023,14 +6023,15 @@ textarea:-ms-input-placeholder {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ax-section-gapTop {
-    padding-top: 80px;
+    padding-top: 17px;
+    padding-bottom: 10px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .ax-section-gapTop {
-    padding-top: 60px;
-  }
+  /* .ax-section-gapTop {
+    padding-top: 20px;
+  } */
 }
 
 .pl--0 {
@@ -22045,7 +22046,7 @@ Single Demo Area
 }
 
 .footer-default .footer-widget-item p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {

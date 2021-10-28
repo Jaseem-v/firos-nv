@@ -606,9 +606,19 @@ iframe {
     padding-top: 25px;
 }
 /* ---x---3d-arts--x-- */
+/* ////////////////////////////
+footer
+*/
+
 /* ---------Media-query----- */
 
 @media only screen and (max-width: 1199px) {
+    .ft-social-share li {
+        margin: 5px 13px;
+    }
+    .ft-social-share li:first-child {
+        margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -627,6 +637,10 @@ iframe {
     }
     #tabs .nav-tabs {
         padding: 15px 0px;
+    }
+
+    .getintouch__description{
+        margin-bottom: 10px !important;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
