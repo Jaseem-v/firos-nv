@@ -606,9 +606,7 @@ iframe {
     padding-top: 25px;
 }
 /* ---x---3d-arts--x-- */
-/* ////////////////////////////
-footer
-*/
+
 .single-brand-row {
     padding-top: 2em;
 }
@@ -801,6 +799,13 @@ footer
         max-width: 608px;
     }
 }
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+
 .image-shadow {
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
