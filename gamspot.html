@@ -403,6 +403,13 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
+    <script type="text/javascript">
+        history.pushState(null, null, 'gamspot.html');
+        window.addEventListener('popstate', function (event) {
+            window.location.assign("work_1.html");
+        });
+    </script>
+
 </body>
 
 
