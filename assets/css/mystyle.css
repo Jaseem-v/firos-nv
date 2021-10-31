@@ -93,6 +93,7 @@ h5 {
 
 .axil-case-study .content {
     color: #5b5675;
+    font-size: 14px;
 }
 
 h2.title {
@@ -461,7 +462,7 @@ button.axil-button.btn-large:active {
     height: 100%;
     object-fit: cover;
 }
-/* .video-grid-item:nth-child(1) {
+/*.video-grid-item:nth-child(1) {
     grid-column: 1/4;
 }
 .video-grid-item:nth-child(2) {
@@ -475,7 +476,7 @@ button.axil-button.btn-large:active {
 }
 .video-grid-item:nth-child(5) {
     grid-column: 5/7;
-} */
+}*/
 .animation-video {
     width: 100%;
     height: 100%;
@@ -500,11 +501,6 @@ button.axil-button.btn-large:active {
 @media only screen and (max-width: 992px) {
     .lg-display {
         display: block;
-    }
-}
-@media only screen and (max-width: 600px) {
-    .lg-display {
-        display: none;
     }
 }
 /* -------index-video--------- */
@@ -809,6 +805,15 @@ iframe {
 @media only screen and (min-width: 1800px) {
     .container {
         max-width: 1600px;
+    }
+    .banner-right-image img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .axil-featured .thumbnail img {
+        width: 70% !important;
+        float: right;
     }
 }
 
