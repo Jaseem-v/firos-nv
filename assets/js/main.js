@@ -1,9 +1,15 @@
-/*********************************************************************************
 
-    Template Name: Keystroke Creative Agency Bootstrap4 Html5 Template
-    Note: This is main js.
+// Magnific Popup
+$(document).ready(function () {
+    $('.portfolio .photography-magnific-popup').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+});
 
-**********************************************************************************/
+// 
 (function (window, document, $, undefined) {
     'use strict';
 
@@ -437,3 +443,4 @@
     axilKey.k();
 
 })(window, document, jQuery);
+
